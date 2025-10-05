@@ -41,7 +41,7 @@ return (
                 <button type="submit" className="w-full bg-[#006AF2] text-white py-3 rounded-md">
                     Sign In
                 </button>
-                <p className="mb-3 text-center">Didn't get OTP?<Link href="../login"
+                <p className="mb-3 text-center">Didn&apos;t get OTP?<Link href="../login"
                         className="text-sm text-blue-600 hover:underline p-2">
                         Resend.
                     </Link></p>

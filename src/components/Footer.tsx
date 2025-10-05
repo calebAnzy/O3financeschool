@@ -11,12 +11,12 @@ const Footer = () => {
                 <DarkLogo/>
                 <p className='max-w-sm'>Follow our social media handles to stay updated</p>
                 <section className='flex gap-3 items-center'>
-                    <a href="https://www.youtube.com/@O3FinanceSchool"><Youtube style="size-5 icon"/></a>
-                    <a href="https://www.linkedin.com/company/o3-finance-school/"><LinkedIn style="size-5 icon"/></a>
-                    <a href="https://www.instagram.com/o3financeschool?igsh=MWRwb3BneDFwbzF3ag=="><Instagram style="size-5 icon"/></a>
-                    <a href="https://x.com/o3financeschool?t=4ZpO7fce9BHdZUMzQi_ygA&s=09"><Xtwitter style="size-5 icon"/></a>
-                    <a href="/"><WhatsApp style="size-5 icon"/></a>
-                    <a href="https://www.facebook.com/share/15osY2FJWM/"><Facebook style='size-5 icon'/></a>
+                    <Link href="https://www.youtube.com/@O3FinanceSchool"><Youtube style="size-5 icon"/></Link>
+                    <Link href="https://www.linkedin.com/company/o3-finance-school/"><LinkedIn style="size-5 icon"/></Link>
+                    <Link href="https://www.instagram.com/o3financeschool?igsh=MWRwb3BneDFwbzF3ag=="><Instagram style="size-5 icon"/></Link>
+                    <Link href="https://x.com/o3financeschool?t=4ZpO7fce9BHdZUMzQi_ygA&s=09"><Xtwitter style="size-5 icon"/></Link>
+                    <Link href="/"><WhatsApp style="size-5 icon"/></Link>
+                    <Link href="https://www.facebook.com/share/15osY2FJWM/"><Facebook style='size-5 icon'/></Link>
                 </section>
             </div>
             
@@ -33,7 +33,7 @@ const Footer = () => {
                 <div>
                     <ul className='[&_li]:my-1'>
                         <p className='mb-3 text-sm'>COMPANY</p>
-                        <li className='transition-colors hover:text-primary'><Link href='/about'>About Us</Link></li>
+                        <li className='transition-colors hover:text-primary'><Link href='/Linkbout'>About Us</Link></li>
                         <li className='transition-colors hover:text-primary'><Link href='/'>Career</Link></li>
                         <li className='transition-colors hover:text-primary'><Link href='/'>Contact</Link></li>
                     </ul>

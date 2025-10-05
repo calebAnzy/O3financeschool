@@ -82,7 +82,7 @@ return (
                 <button type="submit" className="w-full bg-[#006AF2] text-white py-3 rounded-md">
                     Sign In
                 </button>
-                <p className="mb-3 text-center">Don't have an account?<Link href="../register"
+                <p className="mb-3 text-center">Don&apos;t have an account?<Link href="../register"
                         className="text-sm text-blue-600 hover:underline p-2">
                         Sign up.
                     </Link></p>
