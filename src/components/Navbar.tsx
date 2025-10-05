@@ -2,7 +2,7 @@
 import { PrimaryLogo, DarkLogo, WhiteLogo } from "./Icons";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { useState } from "react";
 
 interface Prop {
