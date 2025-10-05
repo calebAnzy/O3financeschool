@@ -22,19 +22,19 @@ const [showPassword, setShowPassword] = useState(false);
 // });
 // };
 
-const handleSignIn = async (e) => {
-  e.preventDefault();
-  const { data, error } = await supabase.auth.signInWithPassword({
-    email,
-    password,
-  });
+// const handleSignIn = async (e) => {
+//   e.preventDefault();
+//   const { data, error } = await supabase.auth.signInWithPassword({
+//     email,
+//     password,
+//   });
 
-  if (error) {
-    console.error(error.message);
-  } else {
-    console.log("User logged in:", data);
-  }
-};
+//   if (error) {
+//     console.error(error.message);
+//   } else {
+//     console.log("User logged in:", data);
+//   }
+// };
 
 return (
 <div className="flex h-screen p-3">
@@ -56,7 +56,7 @@ return (
 
             <form className="space-y-4">
                 {/* Email */}
-                <input type="email" name="email" placeholder="Email" className="w-full border rounded-md p-3" />
+                <input type="email" placeholder="Email" className="w-full border rounded-md p-3" />
 
                 {/* Password with toggle */}
                 <div className="relative">
